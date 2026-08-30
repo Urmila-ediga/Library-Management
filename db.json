@@ -1,0 +1,12 @@
+{
+  "students": [
+    {
+      "name": "Vasanth",
+      "email": "Vasanth@gmail.com",
+      "department": "ECE",
+      "course": "MERN stack",
+      "id": "sO1ZZPZmN1w"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
