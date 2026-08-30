@@ -1,16 +1,53 @@
-# React + Vite
+# 📚 Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly **Library Management System** built using **React JS**.
 
-Currently, two official plugins are available:
+This application allows users to manage books in a library by adding, viewing, updating, and managing book details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🏠 Home page
+- ➕ Add a new book
+- 📖 View all books
+- ✏️ Update book details
+- 🗑️ Delete books
+- 🔍 Manage book information
+- 💾 JSON Server used as a mock backend
+- ⚛️ Built with React JS
+- 🎨 Responsive and simple user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React JS
+- JavaScript
+- HTML5
+- CSS3
+- JSON Server
+- Vite
+- React Router
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+library-management/
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   └── Navbar.jsx
+│   │
+│   ├── pages/
+│   │   ├── AddBook.jsx
+│   │   ├── Home.jsx
+│   │   ├── UpdateBook.jsx
+│   │   └── ViewBook.jsx
+│   │
+│   ├── styles/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── db.json
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
