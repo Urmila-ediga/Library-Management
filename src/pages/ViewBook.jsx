@@ -10,7 +10,7 @@ const ViewBook = () => {
 
   const fetchBooks = () => {
     axios
-      .get('http://localhost:8080/api/books')
+      .get('http://library-management-backend-mbvq.onrender.com/api/books')
       .then((res) => {
         setBooks(res.data)
       })
@@ -30,7 +30,7 @@ const ViewBook = () => {
 
   const handleDelete = (id) => {
     axios
-      .delete(`http://localhost:8080/api/books/delete/${id}`)
+      .delete(`http://library-management-backend-mbvq.onrender.com/api/books/delete/${id}`)
       .then(() => {
         toast.success('Book Deleted')
         fetchBooks()
