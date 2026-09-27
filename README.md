@@ -57,4 +57,10 @@ library-management/
 ## 🚀 Live Demo
 👉 https://library-management-frontend-q6jy.onrender.com
 
+## ☁️ Deployment
 
+The application is deployed on Render.
+
+- **Frontend:** React JS deployed as a Render Static Site
+- **Backend:** Spring Boot REST API deployed on Render
+- **Database:** MySQL hosted on Aiven Cloud
