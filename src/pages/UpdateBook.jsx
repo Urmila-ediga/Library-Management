@@ -15,7 +15,7 @@ const UpdateBook = () => {
 
   useEffect(() => {
     axios
-      .get(`http://library-management-backend-mbvq.onrender.com/api/books/${id}`)
+      .get(`https://library-management-backend-mbvq.onrender.com/api/books/${id}`)
       .then((res) => {
         setBookName(res.data.bookName)
         setCategory(res.data.category)
@@ -40,7 +40,7 @@ const UpdateBook = () => {
 
     axios
       .put(
-        `http://library-management-backend-mbvq.onrender.com/api/books/update/${id}`,
+        `https://library-management-backend-mbvq.onrender.com/api/books/update/${id}`,
         newData
       )
       .then(() => {
