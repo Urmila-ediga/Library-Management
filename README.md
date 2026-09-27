@@ -55,9 +55,6 @@ library-management/
 
 
 ## 🚀 Live Demo
-
-### 🌐 Frontend
 👉 https://library-management-frontend-q6jy.onrender.com
 
-### 🔗 Backend API
-👉 https://library-management-backend-mbvq.onrender.com/api/books
+
